@@ -22,7 +22,7 @@ const Video = () => {
         { name: "React Tutorial 3", id: '3', url: 'vid3.mp4' },
         { name: "React Tutorial 4", id: '4', url: 'vid4.mp4' }
     ]
-    const [url , setUrl] = useState('vid2.mp4');
+    const [url , setUrl] = useState('vid1.mp4');
     const handleVideo = (id) => {
         const video = data.filter(d => d.id === id)
         setUrl(video[0].url)
